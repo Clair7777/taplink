@@ -1,3 +1,38 @@
 * {
   box-sizing: border-box;
 }
+body {
+  font-family: "Inter", sans-serif;
+  padding: 15px;
+  background-color: #f7f7f7;
+}
+.page-wrapper {
+  max-width: 375px;
+  margin: auto;
+  /* background-color: #f7f7f7; */
+  box-shadow: 0 0 30px 2px rgba (0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.header {
+  color: #fff;
+  padding: 40px 42px 145px;
+  border-radius: 10px 10px 80px 80px;
+  background: linear-gradient(
+      0deg,
+      rgba(58, 58, 58, 0.6),
+      rgba(58, 58, 58, 0.6)
+    ),
+    url("../img/background.png") no-repeat center / cover;
+}
+.hello {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  margin-left: 21px;
+}
+.hello-text {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 19px;
+}
